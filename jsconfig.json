@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["src/main.js", "src/App.vue", "src/pages/**/*.vue"],
+  "exclude": ["node_modules", "dist", ".quasar"]
+}
